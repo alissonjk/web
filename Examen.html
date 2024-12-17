@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trap Argentino</title>
+    <style>
+        /* Barra de navegación */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+        }
+
+        .navbar .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+        }
+
+        /* Estilo general para las secciones */
+        .section {
+            padding: 40px 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Sección Historia del Trap Argentino */
+        #history {
+            background-color: #e3f2fd;
+        }
+
+        /* Sección Acerca de (Artistas Conocidos) */
+        #about {
+            background-color: #f1f8e9;
+        }
+
+        /* Sección Servicios (Historias de Artistas) */
+        #services {
+            background-color: #fff3e0;
+        }
+
+        /* Sección Contactos (Marcas Patrocinadoras) */
+        #contacts {
+            background-color: #ffebee;
+        }
+
+        /* Estilos para la tabla de artistas conocidos */
+        .artists-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .artists-table th, .artists-table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .artists-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .artists-table td img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* Estilos para la tabla de marcas patrocinadoras */
+        .sponsors-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .sponsors-table th, .sponsors-table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .sponsors-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .sponsors-table td img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+
+        /* Login form */
+        .login-form input[type="text"], .login-form input[type="password"], .login-form input[type="submit"] {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .login-form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        .login-form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="#history">Inicio</a>
+            <a href="#about">Artistas</a>
+            <a href="#services">Historias</a>
+            <a href="#contacts">Marcas </a>
+        </div>
+        <div class="login-form">
+            <input type="text" placeholder="Usuario" name="username">
+            <input type="password" placeholder="Contraseña" name="password">
+            <input type="submit" value="Login">
+        </div>
+    </nav>
+
+    <!-- Sección 1:  Inicio-->
+    <section id="history" class="section">
+        <h2 style="text-align: center;">Trag Argentino</h2>
+ <p style="text-align: justify;">Aunque el trap se originó en el sur de Estados Unidos en los años 90, Argentina adaptó el género en la última década, transformándolo para hablar de realidades locales. Los primeros exponentes, como Duki, Khea, Cazzu,María Becerra y Paulo Londra, comenzaron a ganar visibilidad entre 2016 y 2018. Gracias a su estilo fresco y a la viralidad en plataformas como YouTube y Spotify, el trap argentino llegó a audiencias internacionales y fue aceptado en toda América Latina y España.</p>
+
+      <h2 style="text-align: center;">Historia y Crecimiento</h2>
+      <p style="text-align: justify;">La música trap en Argentina, conocida como "trag" o simplemente "trap argentino," ha crecido enormemente en popularidad en los últimos años y es uno de los movimientos más influyentes en la música urbana de habla hispana. Surge como una combinación del hip-hop, el reguetón, y la música urbana con letras crudas que reflejan la vida en los barrios y temas como la desigualdad, el éxito, las relaciones y la fiesta.</p>
+
+<h2 style="text-align: center;">Características y Temas</h2>
+      <p style="text-align: justify;">El trap argentino se distingue por su fusión de ritmos y el uso de letras que tocan temas de la vida cotidiana, las dificultades de la juventud, la superación y la fama. Aunque a menudo es explícito, se presenta de una forma honesta y directa, lo que ha hecho que muchos jóvenes se identifiquen con él.</p>
+
+<h2 style="text-align: center;">Impacto cultural</h2>
+      <p style="text-align: justify;">El género ha marcado a la juventud argentina y ha dado lugar a una nueva ola de artistas que incorporan elementos del rock nacional, el reguetón y hasta el folklore argentino. Además, ha influido en la moda, el arte visual, y ha hecho que otros géneros musicales, como el reguetón y el pop, incluyan elementos del trap en sus producciones.</p>
+
+      <p style="text-align: justify;">Hoy en día, el trap argentino sigue evolucionando y es considerado un fenómeno cultural que no solo redefine la música en Argentina, sino que también tiene un impacto importante en el ámbito global.</p>
+
+    <style>
+        /* Estilo para la imagen */
+        img {
+            width: 100%;         /* La imagen ocupará el 100% del contenedor */
+            max-width: 600px;    /* Máximo ancho de la imagen será 600px */
+            height: auto;        /* Mantiene la proporción de la imagen */
+            display: block;      /* Elimina el espacio debajo de la imagen */
+            margin: 0 auto;      /* Centra la imagen en el contenedor */
+        }
+    </style>
+
+<img src="https://tn.com.ar/resizer/v2/https%3A%2F%2Fthumbs.vodgc.net%2F1-14-8jZSPQ1724335719026-1724365358.jpg?auth=f6a8f8174133b9958ec60894724c6c0f9b9fcee61743749912e3312d640af628&width=1440" alt="Imagen de ejemplo">
+
+
+    </section>
+
+    <!-- Sección 2: Acerca de (Artistas más conocidos) -->
+    <section id="about" class="section">
+        <h2>Artistas Más Conocidos del Trap Argentino</h2>
+        <table class="artists-table">
+            <tr>
+                <th>Artista</th>
+                <th>Imagen</th>
+                <th>Información</th>
+            </tr>
+            <tr>
+                <td>Duki</td>
+                <td><img src="https://s1.abcstatics.com/abc/www/multimedia/cultura/2024/05/31/dsafhkdafmj-k6iC-U602589937136UBH-1200x840@diario_abc.jpg" alt="Duki"></td>
+                <td>Considerado uno de los pioneros del trap argentino, su estilo ha trascendido a nivel internacional.</td>
+            </tr>
+            <tr>
+                <td>María Becera</td>
+                <td><img src="https://resizer.glanacion.com/resizer/v2/maria-becerra-hablo-de-la-crisis-economica-en-la-N3GPRDQGGJFZLHMNSWN57LKYNI.png?auth=48b25b94d436b26206568c424851271c89940d834677bf8396eca054d0550fc5&width=768&quality=70&smart=false" alt="Cazzu"></td>
+                <td>Es una de las Atistas destacadas del trap, conocida por su estilo único y sus letras profundas.</td>
+            </tr>
+
+            <tr>
+                <td>Cazzu</td>
+                <td><img src="https://www.hola.com/horizon/landscape/a1fe348a6e8b-cazzu.jpg?im=Resize=(640),type=downsize" alt="Cazzu"></td>
+                <td>Una de las voces femeninas más destacadas del trap, conocida por su estilo único y sus letras profundas.</td>
+            </tr>
+            <tr>
+                <td>Khea</td>
+                <td><img src="https://www.notaalpie.com.ar/wp-content/uploads/2022/04/Destacada.-Khea.-Los40.jpg" alt="Khea"></td>
+                <td>Artista emergente con gran impacto, conocido por su estilo y colaboraciones con artistas internacionales.</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Sección 3: Servicios (Historias de los artistas) -->
+    <section id="services" class="section">
+        <h2>Historias de los Artistas del Trap Argentino</h2>
+        <h2 style="text-align: center;">Historia De Duki</h2>
+      <p style="text-align: justify;">Duki, cuyo nombre real es Mauro Ezequiel Lombardo, es uno de los pioneros y referentes del trap argentino. Nació el 24 de junio de 1996 en Buenos Aires, Argentina. Su carrera musical despegó en 2016, después de participar y ganar en las competencias de freestyle en El Quinto Escalón, una de las batallas de rap más importantes de Argentina en ese momento. Este evento fue un semillero de talento para muchos artistas de la escena urbana en el país y ayudó a lanzar la carrera de Duki.</p>
+ 
+      <h2 style="text-align: center;">Inicios en el Trap y Ascenso a la Fama</h2>
+      <p style="text-align: justify;">El talento de Duki en el freestyle y su estilo único capturaron rápidamente la atención del público. A diferencia del rap tradicional, Duki comenzó a experimentar con sonidos de trap, un subgénero que entonces era relativamente nuevo en Argentina. Con la canción No Vendo Trap (2017), se consolidó como una figura clave en la nueva ola del trap argentino. Su estilo característico, lleno de energía y emotividad, resonó con muchos jóvenes y le permitió acumular una gran cantidad de seguidores rápidamente.</p>
+
+      <h2 style="text-align: center;">Su Época Dorada y Expansión Internacional</h2>
+      <p style="text-align: justify;">Tras el éxito inicial, Duki continuó lanzando éxitos como She Don’t Give a FO (2018), en colaboración con Khea, que se convirtió en un hit en toda Latinoamérica. Desde ese momento, su carrera solo fue en ascenso, colaborando con artistas nacionales e internacionales como C. Tangana, Bad Bunny, Nicki Nicole, Bizarrap, y muchos más.
+
+En 2020, Duki lanzó 24, su primer álbum de estudio, en el cual explora temas de su vida personal y su crecimiento en la escena musical. En 2021, lanzó su segundo álbum, Desde el Fin del Mundo, que consolidó su posición en la música urbana y el trap latinoamericano. Además, Duki ha logrado llenar estadios en Argentina y en otros países, siendo uno de los pocos artistas de trap argentino en alcanzar este nivel de éxito.</p>
+
+      <h2 style="text-align: center;">Estilo y Legado</h2>
+      <p style="text-align: justify;">Duki ha sido pionero en definir el sonido del trap argentino, mezclando ritmos latinos y elementos de la vida urbana. También ha sido una figura influyente en la transición del trap al reggaetón y otros géneros. Su estilo, que incluye letras introspectivas y muchas veces oscuras, refleja la realidad de la juventud y la vida en las calles, temas que han calado hondo en su audiencia.
+
+Duki no solo es un artista destacado, sino también un ícono cultural que ha ayudado a posicionar la música urbana argentina en el escenario internacional.</p>
+
+<br>
+<hr>
+<br>
+      <h2 style="text-align: center;">Historia De Khea</h2>
+      <p style="text-align: justify;">Khea, cuyo nombre real es Ivo Alfredo Thomas Serue, es un destacado rapero y cantante argentino que ha jugado un papel importante en la popularización del trap en América Latina. Nació el 13 de abril de 2000 en Virreyes, Buenos Aires, y comenzó su carrera en la escena del freestyle. Rápidamente se destacó en las batallas de rap en Argentina, ganando reconocimiento por su estilo único y su habilidad para improvisar.
+
+
+El éxito de Khea se consolidó en 2017 con la canción "Loca," en colaboración con Duki y Cazzu. Esta canción se convirtió en un fenómeno viral y una de las más emblemáticas del trap argentino, alcanzando millones de reproducciones en YouTube y otras plataformas. "Loca" también atrajo la atención de artistas internacionales como Bad Bunny, quien hizo un remix del tema, impulsando aún más la visibilidad de Khea en el mercado latinoamericano.</p>
+
+      <h2 style="text-align: center;">Inicios en el Trap y Ascenso a la Fama</h2>
+      <p style="text-align: justify;">Los inicios de Khea en el trap argentino se dieron en un contexto de explosión de la música urbana en Buenos Aires. Influenciado por el rap y el reguetón, Khea comenzó su carrera como freestyler en competencias callejeras y eventos como El Quinto Escalón, un semillero de talento para la escena del trap argentino. Fue en estas batallas donde perfeccionó su habilidad para rimar e improvisar, generando una base de seguidores que lo impulsó a grabar sus primeras canciones.
+
+El gran salto de Khea ocurrió en 2017 con el lanzamiento de "Loca," una colaboración con Duki y Cazzu que redefinió el panorama musical en Argentina y el resto de América Latina. Con un beat pegajoso y un estilo provocador, "Loca" se convirtió en un fenómeno viral casi instantáneo, acumulando millones de reproducciones en plataformas de streaming y redes sociales. La canción no solo popularizó el trap en español sino que también llamó la atención de artistas internacionales, como Bad Bunny, quien lanzó un remix del tema junto a Khea y Duki, dándole proyección global.</p>
+
+      <h2 style="text-align: center;">Su Época Dorada y Expansión Internacional</h2>
+      <p style="text-align: justify;">La época dorada de Khea comenzó después del éxito de "Loca," cuando su popularidad creció a nivel global y consolidó su nombre en la escena del trap. A partir de este momento, Khea comenzó a colaborar con artistas internacionales y a experimentar con distintos géneros, logrando un sonido más sofisticado y accesible para una audiencia diversa. Esta etapa le permitió proyectarse como uno de los máximos exponentes del trap en español, impulsando también al resto de la escena urbana argentina.
+
+Un hito clave en esta fase fue su colaboración con Bad Bunny en el remix de "Loca," que ayudó a posicionar el trap argentino en el mercado global y a abrir puertas para otros artistas de la región. La creciente fama de Khea lo llevó a trabajar con artistas de renombre como Tini, en "Ella Dice," y Prince Royce en "Te Necesito," explorando sonidos de reguetón, pop y bachata, y logrando una mayor versatilidad musical. Estas colaboraciones hicieron que Khea ganara reconocimiento más allá de América Latina, especialmente en países de habla hispana y en comunidades latinas de Estados Unidos y Europa.</p>
+
+      <h2 style="text-align: center;">Estilo y Legado</h2>
+      <p style="text-align: justify;">El estilo musical de Khea se caracteriza por una mezcla de trap, reguetón, R&B y pop, lo que le permite crear un sonido versátil y accesible para diferentes audiencias. Aunque inicialmente se inclinó por el trap clásico, con influencias del rap estadounidense, a medida que su carrera creció, Khea fue incorporando elementos de otros géneros urbanos, como el reguetón y la música latina, lo que lo hizo aún más popular en mercados internacionales.
+
+Uno de los aspectos que distingue a Khea es su habilidad para conectar con su público a través de letras introspectivas y emocionales, en las que aborda temas como el amor, el desamor, las relaciones complicadas y la vida en la calle. Su voz tiene un tono melódico y algo suave, lo que le permite fusionar géneros de forma fluida, manteniendo un equilibrio entre lo agresivo del trap y lo melódico del reguetón. Además, su estilo de rap se caracteriza por la naturalidad y la frescura, sin perder la conexión con la realidad de su entorno y su audiencia, algo que es muy valorado en el trap argentino.
+El legado de Khea dentro del trap argentino y la música urbana en general es significativo. Junto con otros artistas como Duki, Cazzu, Ysy A, y L-Gante, Khea fue parte de la primera ola de artistas que llevaron el trap argentino a la escena global, haciendo que el género se consolidara como una de las principales tendencias musicales en América Latina y en el mundo de habla hispana.</p>
+
+<br>
+<hr>
+<br>
+
+      <h2 style="text-align: center;">Historia De María Becerra</h2>
+      <p style="text-align: justify;">María Becerra, nacida el 12 de febrero de 2000 en Quilmes, Buenos Aires, es una de las figuras más prominentes de la música urbana en Argentina y una de las artistas más importantes del trap y reguetón latino. Su camino hacia la fama es un claro ejemplo de cómo el talento y el uso inteligente de las redes sociales pueden catapultar a un artista joven al estrellato.</p>
+
+      <h2 style="text-align: center;">Inicios en la Música y Redes Sociales</h2>
+      <p style="text-align: justify;">María Becerra comenzó su carrera en el mundo del espectáculo a través de las redes sociales, específicamente en YouTube, donde inicialmente compartía covers de canciones populares. A los 16 años, comenzó a ganar una considerable cantidad de seguidores, lo que le permitió empezar a trabajar en su propia música. Su primer acercamiento al trap y al reguetón fue orgánico, influenciada por el ambiente urbano de Buenos Aires, pero también por la creciente ola del trap argentino que ya estaba tomando fuerza con artistas como Duki, Cazzu y Khea.</p>
+
+      <h2 style="text-align: center;">Surgimiento como Artista Profesional</h2>
+      <p style="text-align: justify;">En 2017, María Becerra comenzó a lanzar sus primeras canciones, lo que la posicionó rápidamente en la escena del trap y reguetón en Argentina. Sin embargo, su salto al estrellato internacional ocurrió con el lanzamiento de "La Noche" en 2019, un tema que la ayudó a consolidar su nombre. En este tiempo, María ya había captado la atención de productores y artistas dentro del género, y su estilo, que combinaba el reguetón con trap, se convirtió en un sello personal.</p>
+
+      <h2 style="text-align: center;">Expansión y Colaboraciones Internacionales</h2>
+      <p style="text-align: justify;">El gran boom de María Becerra se dio en 2020 con el lanzamiento de "Ya No Quiero", una canción que marcó su consolidación como una de las voces más importantes de la música urbana en Argentina. Este sencillo, al igual que muchos de sus posteriores éxitos, contó con una gran producción y un estilo muy pegajoso que rápidamente la hizo viral en plataformas como YouTube y Spotify.
+
+En 2020, María también comenzó a realizar importantes colaboraciones con otros artistas del género. Uno de los momentos clave en su carrera fue su colaboración con el cantante de reguetón TINI en el tema "Mi Lugar", lo que no solo la ayudó a llegar a una audiencia más amplia, sino que también le permitió formar parte de la escena global de la música urbana latina. La colaboración con TINI significó una de las primeras oportunidades de María para conectar con públicos fuera de Argentina, lo que la llevó a una proyección internacional.
+
+En 2021, continuó cosechando éxitos con canciones como "¿Qué Más Pues?", que la consolidaron como una artista con un gran futuro. También tuvo colaboraciones con artistas de renombre como L-Gante, Nicki Nicole, y Rusherking, con quienes participó en algunos de los temas más populares de la música urbana de ese año.</p>
+
+      <h2 style="text-align: center;">Estilo y Éxito Internacional</h2>
+      <p style="text-align: justify;">María Becerra se caracteriza por su estilo único que fusiona el trap, reguetón y pop latino. Su habilidad para crear canciones pegajosas y de fácil consumo le ha ganado una amplia base de seguidores en América Latina y, progresivamente, en otros mercados internacionales. A menudo, sus letras exploran temas de amor, desamor, empoderamiento femenino y la vida cotidiana, y su estilo vocal suave y melódico le permite abordar tanto canciones lentas como rítmicas con igual destreza.</p>
+
+      <h2 style="text-align: center;">Legado y Reconocimiento</h2>
+      <p style="text-align: justify;">A pesar de su juventud, María Becerra ya ha dejado una huella importante en la música urbana. Ha sido reconocida por su habilidad para romper barreras de género, siendo una de las mujeres más influyentes en un ámbito musical tradicionalmente dominado por hombres. En sus canciones, se percibe una gran autenticidad y vulnerabilidad, lo que le ha ganado una leal audiencia que la sigue y se siente identificada con su música.
+
+Además, María Becerra ha sido una de las artistas que ha ayudado a redefinir el sonido del trap en español, dando visibilidad a las mujeres dentro del género y demostrando que no hay límites para el talento. En 2021, recibió numerosos premios y nominaciones, consolidando su estatus de estrella en ascenso en la música urbana.
+
+En resumen, María Becerra es una de las artistas más importantes del trap y el reguetón argentino en la actualidad. Su talento, trabajo duro y enfoque auténtico la han llevado a ser una figura clave en la música urbana en Latinoamérica y en el mundo.</p>
+
+<br>
+<hr>
+<br>
+
+      <h2 style="text-align: center;">Historia De Cazzu</h2>
+      <p style="text-align: justify;">Cazzu, cuyo nombre real es Julieta Emilia Cazzuchelli, nació el 16 de diciembre de 1993 en Ledesma, una ciudad en la provincia de Jujuy, Argentina. Es una de las artistas más importantes del trap y la música urbana en Latinoamérica, y ha sido una figura clave en el desarrollo y consolidación del trap argentino. Su historia es un reflejo de perseverancia, autenticidad y el poder de la música como medio de expresión.</p>
+
+      <h2 style="text-align: center;">Inicios Musicales y Primeros Pasos</h2>
+      <p style="text-align: justify;">Cazzu creció en el norte de Argentina, un entorno que no estaba necesariamente vinculado con la música urbana, lo que la hacía destacar aún más cuando comenzó a incursionar en este género. Desde joven mostró un interés por la música, particularmente por el rap y el freestyle. Su primera incursión en el mundo musical fue en el género del rap, participando en batallas de freestyle donde comenzó a forjar su estilo y a ganar visibilidad dentro de la escena.
+
+En sus primeros años, Cazzu fue influenciada por artistas de la cultura del rap y el hip hop, pero su estilo evolucionó rápidamente hacia el trap, un subgénero musical que estaba tomando fuerza en Argentina. Su llegada al trap se dio de manera orgánica, adaptando su estilo de rap agresivo a la nueva ola de música urbana.</p>
+
+      <h2 style="text-align: center;">Salto a la Fama y Reconocimiento</h2>
+      <p style="text-align: justify;">El primer gran salto en la carrera de Cazzu llegó en 2017, cuando comenzó a lanzar sus primeros temas de trap, como "Loca" (no confundir con la canción de Khea y Duki) y "Mucha Data". Estas canciones llamaron la atención de la audiencia local y la posicionaron como una de las voces femeninas más prometedoras del género en Argentina.
+
+Sin embargo, fue con el lanzamiento de su EP "Maldade$" (2018), donde Cazzu consolidó su estatus como una de las principales exponentes del trap argentino. Este EP destacó por su lírica cruda, su estilo único y su capacidad para abordar temas profundos, como la desigualdad, la violencia y el empoderamiento femenino. Cazzu mostró su versatilidad, fusionando trap con otros géneros urbanos como el reguetón, lo que le permitió llegar a una audiencia más amplia.</p>
+
+      <h2 style="text-align: center;">Expansión Internacional y Colaboraciones</h2>
+      <p style="text-align: justify;">A medida que su popularidad crecía en Argentina, Cazzu comenzó a obtener atención fuera de su país. En 2019, fue parte de la primera ola de artistas del trap argentino que cruzaron las fronteras latinoamericanas, llevándose su música a otros países como México, Colombia y España. Uno de los momentos más destacados de su carrera internacional fue la colaboración con Duki en el tema "Canguro", que rápidamente se convirtió en un éxito, expandiendo su base de seguidores en toda América Latina.
+
+A lo largo de su carrera, Cazzu ha trabajado con algunos de los nombres más importantes del trap y la música urbana, como Duki, Khea, Ysy A, Nicki Nicole y L-Gante. Sus colaboraciones no solo le permitieron expandir su audiencia, sino que también ayudaron a consolidar a Cazzu como una de las figuras más importantes dentro del movimiento de trap y música urbana en español.</p>
+
+      <h2 style="text-align: center;">Estilo y Carácter Musical</h2>
+      <p style="text-align: justify;">El estilo de Cazzu es una fusión de trap, reguetón, y rap, pero lo que realmente la distingue es su capacidad para expresar una profunda carga emocional y un enfoque crítico en sus letras. A menudo, sus canciones abordan temas como la independencia femenina, la lucha por el poder y la igualdad, y la reflexión sobre la vida en la calle, siempre desde una perspectiva genuina y auténtica. Su lírica tiene una gran fuerza, y su presencia en el escenario transmite una actitud desafiante y empoderada.
+
+Uno de los aspectos más llamativos de Cazzu es que, a diferencia de otros artistas del trap, ella ha logrado mantener una estética femenina fuerte, sin necesidad de ajustarse a los estereotipos del género. Su estilo, tanto en su música como en su imagen, busca romper con las convenciones del trap y desafiar las normas que suelen regir la música urbana.</p>
+
+      <h2 style="text-align: center;">Legado y Reconocimiento</h2>
+      <p style="text-align: justify;">Cazzu es una de las artistas más importantes para las mujeres dentro del trap y la música urbana. Su carrera ha sido crucial para demostrar que el trap no es solo un espacio dominado por hombres, sino también un lugar para voces femeninas que tienen algo importante que decir. Su habilidad para empoderarse y ser una referente femenina dentro de un género tan competitivo ha hecho que sea admirada por jóvenes de todo el mundo.
+
+A lo largo de su carrera, Cazzu ha recibido múltiples reconocimientos y premios, y ha sido una de las artistas argentinas que ha llevado el trap más allá de las fronteras de su país. En 2020, su impacto en la industria fue tan grande que se la consideró una de las artistas más influyentes del trap argentino y latinoamericano.
+
+Su legado es el de una artista que, con talento, actitud y autenticidad, ha dejado una marca indeleble en la música urbana, inspirando a una nueva generación de artistas, especialmente mujeres, a seguir sus pasos y a buscar su propio espacio dentro de la industria musical.</p>
+
+    </section>
+
+    <!-- Sección 4: Contactos (Marcas patrocinadoras) -->
+    <section id="contacts" class="section">
+        <h2>Marcas Patrocinadoras del Trap Argentino</h2>
+        <table class="sponsors-table">
+            <tr>
+                <th>Marca</th>
+                <th>Logo</th>
+            </tr>
+            <tr>
+                <td>Red Bull</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO2A_r_NuCMHk-NwBmAu0jfVTHBpw-RwZWow&s"  alt="Red Bull"></td>
+            </tr>
+            <tr>
+                <td>Adidas</td>
+                <td><img src="https://www.adidas.com/on/demandware.static/Sites-adidas-CAC-Site/-/default/dw9b623fcd/images/adidas_logo.png" alt="Adidas"></td>
+            </tr>
+            <tr>
+                <td>Puma</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOpCX20zhfcT8b1X5Xa_XoYRxG3E-gLlKTLA&s" alt="Puma"></td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+</html>
